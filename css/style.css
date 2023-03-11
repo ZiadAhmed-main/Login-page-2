@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../imgs/pexels-brett-sayles-4504739.jpg");
+    background-color: #666;
     background-size: cover;
 }
 section {
@@ -46,7 +46,7 @@ section {
 
 .content .container {
     width: 400px;
-    z-index: 100;
+
 }
 .content h3 {
     font-size: 2em;
@@ -68,7 +68,7 @@ section {
 }
 .content .login-form .input-item {
     position: relative;
-    z-index: -1;
+
 }
 .content .login-form .input-item label {
     position: absolute;
@@ -76,7 +76,6 @@ section {
     top: -17px;
     left: 30px;
     padding: 5px;
-    z-index: 1000;
 }
 .content .login-form .input-item input {
     width: 100%;
@@ -110,7 +109,7 @@ section {
     margin: auto;
 }
 .content .signup a{ 
-    color: #4ad295;
+    color: #49a942;
 }
 .content .social {
     margin-top: 30px;
